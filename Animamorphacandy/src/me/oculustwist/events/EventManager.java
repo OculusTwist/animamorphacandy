@@ -17,7 +17,6 @@ public class EventManager {
 	public static void setup(){
 		PluginManager pm = Bukkit.getPluginManager();
 		
-		pm.registerEvents(new EventPlayerJoin(), main);
 		pm.registerEvents(new EventPlayerEat(), main);
 	}
 
