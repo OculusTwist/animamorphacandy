@@ -1,0 +1,10 @@
+name: Animamorphacandy
+main: me.oculustwist.main.Animamorphacandy
+version: 1.0
+depend: [LibsDisguises, ProtocolLib]
+author: OculusTwist
+commands:
+    amc:
+      description: Animamorphacandy base command.
+      usage: /<command>
+      aliases: [animamorphacandy]
